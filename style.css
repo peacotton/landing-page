@@ -1,31 +1,15 @@
+/* TYPES */
+
 body {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
-}
-
-.header {
-  width: 100%;
-  display: flex;
-  background-color: #1F2937;
-  color: #F9FAF8;
-}
-
-.logo {
-  margin: 30px;
-}
-
-.links {
-  display: flex;
-  justify-content: space-between;
-  margin-left: auto;
-  margin-right: 30px;
 }
 
 ul {
   list-style: none;
   display: flex;
   align-items: center;
-  
 }
 
 li {
@@ -36,4 +20,67 @@ a {
   text-decoration: none;
   padding: 8px;
   color: #F9FAF8;
+}
+
+/* CLASSES */
+
+.header {
+  width: 100%;
+  display: flex;
+  background-color: #1F2937;
+  color: #F9FAF8;
+  justify-content: space-around;
+}
+  
+.logo {
+  
+}
+ 
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.body {
+  display: flex;
+  background-color: #1F2937;
+  color:#F9FAF8;
+  padding: 32px;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: 0 1 500px;
+}
+
+.mushroom {
+  height: 400px;
+  width: auto;
+}
+
+.button {
+  max-width: 100px;
+  margin: 8px;
+  padding: 6px;
+  background-color: #3882F6;
+  color:#F9FAF8;
+  font-weight: bold;
+  border-radius: 4px;
+  border-style:none;
+}
+
+.hero {
+  font-size: 48px;
+  color:#F9FAF8;
+  font-weight:bolder;
+  margin: 0 8px 0px 8px;
+}
+
+.text {
+  margin: 0 0 8px 8px;
 }
